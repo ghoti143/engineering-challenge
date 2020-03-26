@@ -4,7 +4,7 @@ Thanks to your [Part 107 Commercial Drone Pilot's license](https://www.faa.gov/u
 
 ## Requirements
 
-Your required tools are listed in the Tools section below. At its most basic, your app should load a map centered over the FAA polygon, which is also visible. The user should have the ability to draw shapes on the map, and after the sketch is complete, it will be visualized with a different color than the one used for the FAA shape. You should also be able to clearly visualize which portion of your flight area is NOT in controlled airspace (in other words, the area that doesn't intersect). Finally, display a message on the page indicating whether this flight area will be approved or not.
+The tools you will need are listed in the Tools section below. At its most basic, your app should load a map centered over the FAA polygon, which is also visible. The user should have the ability to draw shapes on the map, and after the sketch is complete, it will be visualized with a different color than the one used for the FAA shape. You should also be able to clearly visualize which portion of your flight area is NOT in controlled airspace (in other words, the area that doesn't intersect). Finally, display a message on the page indicating whether this flight area will be approved or not.
 
 At Airspace Link, we feel strongly about good communication. Make sure to provide a `README.md` which explains your approach, both from a functional and code perspective. Pay attention to grammar; good writing will always win us over. The README should also give us instructions about how to get it up and running after the repo is cloned. You can also write up a list of great ideas you'd love to tackle on this app if you had infinite time to work on it.
 
