@@ -19,10 +19,10 @@ The FAA polygon is included in this repo. Begin by forking the repo. When you ar
 
 ## Tools
 
-We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We also use [TypeScript](https://www.typescriptlang.org/) and would love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). For the geoprocessing, [TurfJS](https://turfjs.org/) is your best bet.
+We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We also use [TypeScript](https://www.typescriptlang.org/) and would love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). HINT: [React-Leaflet](https://react-leaflet.js.org/) is a great way to integrate Leaflet using React components. For the geoprocessing, [TurfJS](https://turfjs.org/) is your best bet.
 
 ## Evaluation
 
-If there has to be a tradeoff, we'd rather see clean, well-organized code and attention to detail over feature completeness. The point of this exercise is to give us insight into your style, creativity, and (I'll say at again) _attention to detail_. We're not a "code comments on every line" group of engineers, but they are welcome in sections you think might help a code reviewer better understand your logic.
+If there has to be a tradeoff, we'd rather see clean, well-organized code and attention to detail over feature completeness. The point of this exercise is to give us insight into your style, creativity, and (I'll say it again) _attention to detail_. We're not a "code comments on every line" group of engineers, but they are welcome in sections you think might help a code reviewer better understand your logic.
 
 You have the base requirements, but feel free to go above and beyond. This is your chance to truly show off your skills and creativity! Happy coding, and don't hesitate to reach out with any questions.
