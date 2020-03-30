@@ -4,25 +4,27 @@ Thanks to your [Part 107 Commercial Drone Pilot's license](https://www.faa.gov/u
 
 ## Requirements
 
-The tools you will need are listed in the Tools section below. At its most basic, your app should load a map centered over the FAA polygon, which is also visible. The user should have the ability to draw shapes on the map, and after the sketch is complete, it will be visualized with a different color than the one used for the FAA shape. You should also be able to clearly visualize which portion of your flight area is NOT in controlled airspace (in other words, the area that doesn't intersect). Finally, display a message on the page indicating whether this flight area will be approved or not.
+The tools you will need are listed in the Tools section below. At its most basic, your app should load a map centered over a visible FAA polygon, which was generated using the provided data. The user should have the ability to draw shapes on the map. You should be able to clearly visualize which portion of your flight area is in controlled airspace (in other words, the area that intersects the FAA polygon). Using this, display a message sowewhere on the page indicating:
+- Whether this flight will be approved or denied
+- The area (in sq meters or sq kilometers) of the intersection, if any
 
-At Airspace Link, we feel strongly about good communication. Make sure to provide a `README.md` which explains your approach, both from a functional and code perspective. Pay attention to grammar; good writing will always win us over. The README should also give us instructions about how to get it up and running after the repo is cloned. You can also write up a list of great ideas you'd love to tackle on this app if you had infinite time to work on it.
+At Airspace Link, we feel strongly about good communication. Make sure to provide a `README.md` which explains your approach, both from a functional and code perspective. Pay attention to grammar; good writing will always win us over. The README should provide set up instructions. You could include a list of ideas you'd love to tackle if you had infinite time to work on the app.
 
-The FAA polygon is included in this repo. Begin by forking the repo. When you are finished, send us a link to the completed project. If your repo is private, add `ddbradshaw`, `fieldsco`, and `jmburns` so we can review your work.
+The FAA polygon is included in this repo, which you can fork to get started. We understand that doing your best work can often take significant time, but please try to finish within one week. When it's ready, send us a link to the completed project. Please make your repo private and give access to `fieldsco`, `ddbradshaw`, and `jmburns` so we can review your work.
 
 #### Extra credit ideas
 
-- Output the area (in square meters or km) of controlled airspace that intersects your flight area
+- api
 - Deploy your project to [Github Pages](https://pages.github.com/)
 - Provide a layer control to toggle the visibility of your flight area and the FAA polygon
 - <insert your awesome idea here!>
 
 ## Tools
 
-We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We also use [TypeScript](https://www.typescriptlang.org/) and would love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). HINT: [React-Leaflet](https://react-leaflet.js.org/) is a great way to integrate Leaflet using React components. For the geoprocessing, [TurfJS](https://turfjs.org/) is your best bet.
+We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We use [https://reactjs.org/docs/components-and-props.html#function-and-class-components](function components), utilizing the [https://reactjs.org/docs/hooks-intro.html](Hooks API), but you are not required to use these if you prefer Class  components. [TypeScript](https://www.typescriptlang.org/) is a part of our world and we'd love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). For geoprocessing (intersect, area, etc.), [TurfJS](https://turfjs.org/) is your best bet.
 
 ## Evaluation
 
-If there has to be a tradeoff, we'd rather see clean, well-organized code and attention to detail over feature completeness. The point of this exercise is to give us insight into your style, creativity, and (I'll say it again) _attention to detail_. We're not a "code comments on every line" group of engineers, but they are welcome in sections you think might help a code reviewer better understand your logic.
+If there has to be a tradeoff, we'd rather see clean, well-organized code and attention to detail over a plethora of features. The point of this exercise is to give us insight into your style, creativity, and (I'll say it again) _attention to detail_. We're not a "code comments on every line" group of engineers, but they are welcome in sections you think might help a code reviewer better understand your logic.
 
 You have the base requirements, but feel free to go above and beyond. This is your chance to truly show off your skills and creativity! Happy coding, and don't hesitate to reach out with any questions.
