@@ -21,7 +21,7 @@ The FAA polygon is included in this repo, which you can fork to get started. We 
 
 ## Tools
 
-We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We use [https://reactjs.org/docs/components-and-props.html#function-and-class-components](function components), utilizing the [https://reactjs.org/docs/hooks-intro.html](Hooks API), but you are not required to use these if you prefer Class  components. [TypeScript](https://www.typescriptlang.org/) is a part of our world and we'd love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). For geoprocessing (intersect, area, etc.), [TurfJS](https://turfjs.org/) is your best bet.
+We use [ReactJS](https://reactjs.org/) at Airspace Link, and we strongly prefer this challenge to follow suit. We use [function components](https://reactjs.org/docs/components-and-props.html#function-and-class-components), utilizing the [Hooks API](https://reactjs.org/docs/hooks-intro.html), but you are not required to use these if you prefer Class  components. [TypeScript](https://www.typescriptlang.org/) is a part of our world and we'd love to see that implemented as well. For the map and sketch tools, you can use [LeafletJS](https://leafletjs.com/) and [Leaflet Draw](http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html). For geoprocessing (intersect, area, etc.), [TurfJS](https://turfjs.org/) is your best bet.
 
 ## Evaluation
 
