@@ -18,6 +18,7 @@ The FAA polygon data is included in this repo, which you can fork to get started
 - Deploy your project to [Github Pages](https://pages.github.com/)
 - Spin up a NodeJS/Express (or similar framework) API to demonstrate how you'd persist the drawn shapes
 - Provide a layer control to toggle the visibility of your flight area and the FAA polygon
+- Add unit/snapshot tests
 - Allow the user to input a flight start time (hh:mm ampm). If there is a flight area sketch on the page, find the centroid, figure out the timezone of that point, then tack on a timezone to the start time. This scenario would come into play if the user were planning to fly in a different time zone than their current one.
 - <insert your awesome idea here!>
 
