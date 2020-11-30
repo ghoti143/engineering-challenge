@@ -11,7 +11,7 @@ The tools you will need are listed in the Tools section below. At its most basic
 
 At Airspace Link, we feel strongly about good communication. Make sure to provide a `README.md` which explains your approach, both from a functional and code perspective. Pay attention to grammar; good writing will always win us over. The README should provide setup instructions. You might include a list of ideas you'd love to tackle if you had infinite time to work on the app.
 
-The FAA polygon data is included in this repo, which you can fork to get started. We understand that doing your best work can often take significant time, but please try to finish within one week. When it's ready, send us a link to the completed project. Please make your repo private and give access to `fieldsco`, `ddbradshaw`, and `jmburns` so we can review your work.
+The FAA polygon data is included in this repo, which you can fork to get started. We understand that doing your best work can often take significant time, but please try to finish within one week. When it's ready, send us a link to the completed project. Please make your repo private and give access to `fieldsco` and `ddbradshaw` so we can review your work.
 
 #### Extra credit ideas
 
